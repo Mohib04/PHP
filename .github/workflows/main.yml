@@ -16,4 +16,4 @@ jobs:
       with:
         server: ftp.anhenterprise.com
         username: dealer@anhenterprise.com
-        password: ~@BSLa3^fZ{o
+        password: ${{ secrets.ftp_password }}
